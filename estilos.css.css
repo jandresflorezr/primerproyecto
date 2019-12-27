@@ -1,0 +1,535 @@
+/* #789dcc */
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: white;
+    position: sticky; z-index:1; /*opacity:0.9;*/
+    top: 0;
+    background-color: white;
+}
+
+.barrasuperiorgris{
+    width: 100%;
+    height: 25px;
+    background-color: #F5F5FB;
+}
+
+.subcontenedor1{
+    width: 23%;
+    height: 24px;
+    float: left;
+    overflow: hidden;
+    background-color: #F5F5FB;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.subcontenedor2{
+    width: 13.5%;
+    height: 24px;
+    float: right;
+    background-color: #F5F5FB;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.logocontacto{
+    float: left;
+}
+.textocontacto{
+    float: right;
+    margin-top: 1px;
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.textocontacto a{
+    text-decoration:none;
+}
+
+.cajonlogoprincipal{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.logoprincipal{
+    float: left;
+}
+
+.subcontenedor1s{
+    width: 12%;
+    height: 24px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.subcontenedor2s{
+    width: 8%;
+    height: 24px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.subcontenedor3s{
+    width: 10%;
+    height: 24px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.logocontactos{
+    float: left;
+}
+.textocontactos{
+    float: right;
+    margin-top: 1px;
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.textocontactos a{
+    text-decoration:none;
+}
+
+
+
+.barraseparadora{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin-top: 4px;
+}
+
+
+
+.cajonmenulinealyslider{
+
+    width: 100%;
+    height: auto;
+
+}
+
+#menuprincipals {
+    font-family: "Candara";
+    font-size: 120%;
+    font-weight: bolder;
+    float: left;
+    overflow: hidden;
+    background-color: grey;
+    width: 20%;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.navi > li {
+    float:bottom;
+}
+
+.navi li a {
+    background-color: #2271b3;
+    color:white;
+    text-decoration:none;
+    padding: 15.45px 40px; /*gorditos de lado*/
+    display:block;
+    height: auto;
+}
+
+.navi li a:hover {
+    background-color:#328dd8;
+    color:black;
+}
+
+.textoseccionesgenerales a :hover {
+    color: black;
+}
+
+
+section{
+    float: right;
+
+    width: 80%;
+    height: auto;
+}
+
+.productos {
+    display:none;
+    position:absolute;
+    min-width:248px; /*Grueso subsecciones menu*/
+}
+
+.ropa {
+    display:none;
+    position:absolute;
+    min-width:280px; /*Grueso subsecciones menu*/
+}
+
+.navi li:hover > ul {
+    display:block;
+
+}
+
+.navi li ul li {
+    position:relative;
+    right: 0px;
+}
+
+
+
+
+
+
+
+.cajadeproductospopulares{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.cajahuellitasproductospopulares{
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.cajatextoproductospopulares{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.textoproductospopulares {
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.cajonesproductospopulares{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+.productospopulares{
+    float:left;
+    text-align:center;
+    width: 16.35%;
+    margin-top: 5px;
+    position: relative;
+    border: 3px solid #eeeef3;
+    margin-left: 4px;
+    height:350px;
+    background-color: white;
+}
+
+.imgprodproductospopulares{
+    margin-top: 15px;
+}
+
+.textosproductospopulares{
+     width: 100%;
+     height: 35px;
+     float: bottom;
+     text-align: center;
+ }
+
+.textosproductospopulares a{
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.subtextosproductospopulares{
+    width: 100%;
+    height: 30px;
+    float: bottom;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.subtextosproductospopulares span{
+    font-family: "Candara";
+    font-weight: bolder;
+}
+
+.color1{
+    color: darkblue;
+    text-decoration:line-through;
+}
+
+.color2{
+    color: red;
+    font-size: 150%;
+}
+
+
+
+.cajonmenulineal{
+
+}
+
+
+.menulineal{
+    overflow: hidden;
+    height:140px;
+    width:100%;
+    background-color: #2271b3;
+    margin-top: 0px;
+}
+
+.seccionesgenerales{
+    float:left;
+    text-align:center;
+    width: 11.1%;
+    margin-top: 0px;
+    position: relative;
+}
+
+.seccionesgenerales:hover{
+    background-color: #F5F5FB;
+    color: red;
+}
+
+.cajonmenulineal img{
+    margin-top: 30px;
+}
+
+.textoseccionesgenerales{
+    width: 100%;
+    height: 70px;
+    float: bottom;
+    text-align: center;
+    color: black;
+}
+
+.textoseccionesgenerales a{
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.textoseccionesgenerales:hover{
+    color: red;
+}
+
+#enlaceseccionesgenerales{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+
+
+
+.cajadeproductospopularess{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+
+
+
+nav{
+    height: auto;
+
+}
+
+.titulomensajedenav{
+    width: 100%;
+    height: auto;
+    font-family: "Candara";
+    font-size: 200%;
+    font-weight: bolder;
+    align-content: center;
+    margin-left: 35%;
+    margin-top: 1px;
+}
+
+.textomensajedenavuno{
+    width: 100%;
+    height: auto;
+    font-family: "Candara";
+    font-size: 150%;
+    font-weight: bolder;
+    align-content: center;
+    margin-left: 27%;
+}
+
+.cajasnavblog{
+    float:left;
+    text-align:center;
+    width: 31.5%;
+    margin-top: 1px;
+    position: relative;
+    border: 5px solid white;
+    background-color: ;
+    margin-left: 4px;
+    height:350px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.textocajanavizq{
+    width: 100%;
+    height: 70px;
+    float: bottom;
+    text-align: center;
+
+}
+
+.textocajanavizq p{
+    font-family: "Candara";
+    font-size: 118%;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.textocajanavder{
+    width: 100%;
+    height: 70px;
+    float: bottom;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.textocajanavder p{
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+
+.cajasnavblog a{
+    font-family: "Candara";
+    font-size: 100;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.imgprodnav{
+    margin-top: 20px;
+}
+
+
+
+.separadornavdefooter{
+    border: 5px solid #eeeef3;
+    height: 1px;
+}
+
+
+footer{
+    background-color: darkblue;
+    width: 100%;
+    height: 250px;
+}
+
+
+.cajitafosterredes{
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+}
+
+.logosredes{
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+
+
+.foster{
+    background-color: black;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.cajonesfoster{
+    border: 1px solid white;
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+
+.formatocajonesfoster{
+    font-family: "Candara";
+    font-size: 100%;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.formatocajonesfoster li a {
+    color:white;
+    text-decoration:none;
+
+}
+
+.titulo{
+    font-family: "Candara";
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
